@@ -1,0 +1,94 @@
+/* Navbar Container */
+.navbar {
+    position:absolute; /* Keeps it fixed at the top */
+    width: 100vw; /* Full width of the viewport */
+    height: 80px;
+    top: 38px; /* Below the promo bar */
+    left: 0;
+    background: #720554;
+    box-shadow: 0px 3.33333px 3.33333px rgba(0, 0, 0, 0.16);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; /* Reduced padding for better spacing */
+    box-sizing: border-box;
+    z-index: 1000;
+  }
+  
+  /* Logo */
+  .navbar-logo img {
+    width: 200px; /* Reduced width for better fit */
+    height: auto;
+  }
+  
+  /* Navigation Links */
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 30px; /* Space between links */
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .navbar-links li a {
+    font-family: 'Rubik', sans-serif; /* Font family */
+    font-weight: 100; /* Font weight */
+    font-size: 17px; /* Font size */
+    line-height: 16px; /* Line height */
+    text-decoration: none; /* Remove underline */
+    color: #ffffff; /* White text */
+    transition: color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .navbar-links li a:hover {
+    color: #f5a623; /* Hover effect color */
+  }
+  /* Right Section (Search Bar + Icons) */
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 40px; /* Reduced spacing between search and icons */
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 0 5px;
+    width: 150px; /* Reduced width to fit */
+  }
+  
+  .search-bar input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    color: #f5f5f5;
+  }
+  
+  .search-bar .search-icon {
+    font-size: 16px;
+    color: #f5f5f5;
+  }
+  
+  /* Icons */
+  .navbar-icons {
+    display: flex;
+    gap: 40px; /* Reduced spacing between icons */
+  }
+  
+  .icon {
+    font-size: 18px;
+    color: #f5f5f5;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: #f5a623;
+  }
+  

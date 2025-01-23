@@ -1,0 +1,24 @@
+/* Promo Bar Container */
+.promo-bar {
+    position: absolute;
+    width: 100vw;
+    height: 38px;
+    left: 0;
+    top: 0;
+    background: rgba(213, 196, 146, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
+  }
+  
+  /* Promo Bar Content */
+  .promo-content {
+    font-family: 'Inter', sans-serif; /* Use the Inter font */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.6667px; /* Font size from Figma */
+    line-height: 20px; /* Line height */
+    color: #C71D22; /* Text color */
+    text-align: center;
+  }
+  

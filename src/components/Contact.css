@@ -1,0 +1,148 @@
+/* Contact Section */
+.contact {
+    width: 100vw;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 0 0;
+    gap: 40px;
+    position: absolute;
+    width: 1217px;
+    height: 538.4px;
+    left: 115px;
+    top: 2285px;
+  }
+  
+  /* Header */
+  .contact h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #111827;
+  }
+  
+  /* Content Container */
+  .contact-content {
+    display: flex;
+    flex-direction: row;
+    gap: 96px;
+    align-items: flex-start;
+    width: 1217px;
+    height: 434.4px;
+  }
+  
+  /* Contact Info Section */
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 560.5px;
+  }
+  
+  .contact-info h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #111827;
+  }
+  
+  .contact-info p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6B7280;
+  }
+  
+  /* Social Icons */
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .facebook {
+    background-color: #4676ED;
+  }
+  
+  .youtube {
+    background-color: #DA0000;
+  }
+  
+  .telegram {
+    background: linear-gradient(0deg, #1D93D2 0%, #38B0E3 100%);
+  }
+  
+  .twitter {
+    background-color: #5A99EC;
+  }
+  
+  /* Contact Form Section */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 560.5px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .form-group label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111827;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 12px 16px;
+    width: 560.5px;
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(75, 85, 99, 0.6);
+    outline: none;
+  }
+  
+  .send-button {
+    padding: 14px 32px;
+    background-color: #720554;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 12px;
+    font-weight: 500;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 200px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .send-button:hover {
+    box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 8px 10px -6px rgba(0, 0, 0, 0.1);
+  }
+  

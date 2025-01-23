@@ -1,0 +1,57 @@
+/* Features Section */
+.features {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns for a desktop view */
+    gap: 40px; /* Space between cards */
+    padding: 50px 100px;
+    background-color: #f8f9fa;
+  }
+  
+  /* Feature Card */
+  .feature-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: transparent;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  /* Feature Icon */
+  .feature-icon {
+    width: 41.2px;
+    height: 41.2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #68054C;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  /* Feature Title */
+  .feature-title {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 28px;
+    color: #23395B;
+    margin-bottom: 10px;
+  }
+  
+  /* Feature Description */
+  .feature-description {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    color: #23395B;
+    max-width: 366.27px; /* Match Figma dimensions */
+  }
+  

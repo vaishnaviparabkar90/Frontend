@@ -1,0 +1,89 @@
+/* Hero Section */
+.hero-section {
+    width: 100vw;
+    margin-bottom: 0;  /* Remove or reduce margin if there is any */
+    padding-bottom: 0;
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content: space-between; /* Space between text and image */
+    align-items: center; /* Vertically align text and image */
+    padding: 140px 50px; /* Add padding around the section */
+    gap: 30px; /* Space between the text and image */
+    background-color: #f8f9fa; /* Optional background for contrast */
+  }
+ 
+ 
+  /* Left Text Content */
+  .hero-text {
+    flex: 1; /* Take up available space */
+    max-width: 50%; /* Restrict the width to 50% */
+    color: #23395B; /* Text color */
+  }
+  
+  .hero-about {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 23.1972px; /* Font size from Figma */
+    line-height: 27px; /* Line height */
+    margin-bottom: 20px;
+  }
+  
+  .hero-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 47.5px; /* Font size from Figma */
+    line-height: 111.6%; /* Line height */
+    margin-bottom: 30px;
+  }
+  
+  .hero-description {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 16.6667px; /* Font size */
+    line-height: 170.1%; /* Line height */
+    margin-bottom: 50px;
+  }
+  
+  /* Play Now Button */
+  .play-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  .play-icon {
+    width: 42.58px;
+    height: 42.22px;
+    background: #720554; /* Violet background */
+    border-radius: 50%; /* Circular icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* White play icon */
+    font-size: 20px;
+  }
+  
+  .play-button span {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 17.946px; /* Font size */
+    line-height: 21px; /* Line height */
+    color: #23395B; /* Text color */
+  }
+  
+  /* Right Image */
+  .hero-image {
+    flex:auto; /* Take up available space */
+    max-width: 50%; /* Restrict the width to 50% */
+    display: flex;
+    margin-left: 20px;
+    justify-content: flex-end; /* Align image to the right */
+  }
+ 
+  
+  .hero-image img {
+    width: 666.67px; /* Match the Figma dimensions */
+    height: 437.5px;
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  

@@ -1,0 +1,7 @@
+body {
+  font-family: 'Rubik', sans-serif; /* Primary font for the layout */
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif; /* Use Playfair Display for headings */
+}
